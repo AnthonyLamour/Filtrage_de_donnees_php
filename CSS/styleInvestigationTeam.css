@@ -1,0 +1,83 @@
+/*Style du body*/
+body{
+    
+	background:url(../Image/InvestigationTeamBackground.jpg) fixed no-repeat center;
+	background-size:100% 100%;
+    
+}
+
+/*Style du body de la page de réception*/
+#BODYRECEPTION{
+ 
+    background:url(../Image/InvestigationTeamBackgroundReception.jpg) fixed no-repeat center;
+	background-size:100% 100%;
+ 
+}
+
+/*Style du titre de la page*/
+h1{
+ 
+    margin-left:25%;
+    width:50%;
+    background-color:#f7f119;
+    text-align:center;
+    border:5px solid black;
+    border-radius: 5% 5% 5% 5%;
+    text-decoration:underline;
+    
+}
+
+/*Style du fieldset contenant le formulaire*/
+#FORMINSCRIPTIONCONTENU{
+    
+    margin-left:25%;
+    max-width:49%;
+    background-color:#f7f119;
+    text-align:center;
+    border:5px solid black;
+    
+}
+
+/*Style du fieldset de la page de réception*/
+#RECEPTIONCONTENU{
+ 
+    margin-left:25%;
+    max-width:49%;
+    background-color:#f7f119;
+    text-align:center;
+    border:5px solid black;
+ 
+}
+
+/*Style du menu de choix d'équipe*/
+#TEAMCHOICE{
+ 
+    float:left;
+    width:15%;
+    height:15%;
+    background:url(../Image/ChoixTeamInvestigationTeam.jpg) fixed no-repeat;
+	background-size:17% 18%;
+    text-align:center;
+    color:black;
+    border:5px solid black;
+    border-radius: 5% 5% 5% 5%;
+    overflow:auto;
+
+}
+
+/*Style du texte du menu de choix d'équipe*/
+#TEXTCHOIXEQUIPE{
+ 
+    background-color:gray;
+    
+}
+
+/*Style des boutons*/
+#BOUTONCHOIXTEAM, #BOUTONVALIDFORM{
+ 
+    background-color:white;
+    border-radius:25% 25% 25% 25%;
+    border-color:black;
+    width:50%;
+    box-shadow:5px 5px 5px black; 
+}
